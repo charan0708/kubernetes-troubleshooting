@@ -2,8 +2,6 @@
 
 ### ImagePullBackOff
 
-Video Link - https://youtu.be/vGab4v3RWEw
-
 When a kubelet starts creating containers for a Pod using a container runtime, it might be possible the container is in Waiting state because of ImagePullBackOff.
 
 The status ImagePullBackOff means that a container could not start because Kubernetes could not pull a container image for reasons such as 
